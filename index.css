@@ -106,3 +106,155 @@ h3{
     margin: 0 auto;
     text-align: center;
 }
+
+#ahri{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 3%;
+    display: flex;
+    flex-direction: row;
+    border: 3px solid  rgb(200,200,200);
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    height: 370px;
+    max-width: 100%;
+}
+
+.ahri{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5%;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#ahrikda{
+    width: 600px;
+    max-width: 100%;
+    height: 370px;
+    max-height: 100%;
+}
+
+h4{
+    color: black;
+    font-size: 50px;
+    border-bottom: solid black;
+    font-family: 'Oswald', sans-serif;
+}
+
+#ahribio{
+    font-size: 19px;
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    margin-top: -24px;
+}
+
+#evelynn{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 3%;
+    display: flex;
+    flex-direction: row;
+    border: 3px solid  rgb(200,200,200);
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    height: 370px;
+    max-width: 100%;
+}
+
+.evelynn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5%;
+    max-width: 100%;
+}
+
+#evelynnkda{
+    width: 600px;
+    max-width: 100%;
+    height: 370px;
+    max-height: 100%;
+}
+
+#evelynnbio{
+    font-size: 19px;
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    margin-top: -20px;
+}
+
+#akali{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 3%;
+    display: flex;
+    flex-direction: row;
+    border: 3px solid  rgb(200,200,200);
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    height: 370px;
+    max-width: 100%;
+}
+
+.akali{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5%;
+    max-width: 100%;
+}
+
+#akalikda{
+    width: 600px;
+    max-width: 100%;
+    height: 370px;
+    max-height: 100%;
+}
+
+#akalibio{
+    font-size: 19px;
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    margin-top: -30px;
+}
+
+#kaisa{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 3%;
+    display: flex;
+    flex-direction: row;
+    border: 3px solid  rgb(200,200,200);
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    height: 370px;
+    max-width: 100%;
+}
+
+.kaisa{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5%;
+    max-width: 100%;
+}
+
+#kaisakda{
+    width: 600px;
+    max-width: 100%;
+    height: 370px;
+    max-height: 100%;
+}
+
+#kaisabio{
+    font-size: 19px;
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    margin-top: -23px;
+}
