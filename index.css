@@ -1,4 +1,5 @@
-h1{
+#title{
+    position: absolute;
     font-size: 70px;
     color: white;
     text-align: center;
@@ -28,10 +29,66 @@ h2{
 
 #kda{
     border: 0px;
-    max-width: 100%;
+    min-width: 100%;
 }
+
 html{
+    scroll-behavior: smooth;
     background-color: rgb(30,30,28);
+}
+
+#tabheader{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    height: 81px;
+    max-width:100%;
+    margin-left: 3%;
+    margin-right: 3%;
+    background-color: white;
+}
+
+a:hover{
+    color:white;
+}
+
+#tabsocial{
+    position: relative;
+    z-index: 1;
+    color: black;
+    background-color: rgb(18,244,252);
+    font-size: 50px;
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+}
+
+#tabmembers{
+    position: relative;
+    z-index: 1;
+    color: black;
+    background-color: rgb(18,244,252);
+    font-size: 50px;
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+}
+
+#tabvoices{
+    position: relative;
+    z-index: 1;
+    color: black;
+    background-color: rgb(18,244,252);
+    font-size: 50px;
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
 }
 
 #images{
@@ -107,6 +164,18 @@ h3{
     text-align: center;
 }
 
+h4{
+    color: black;
+    font-size: 50px;
+    border-bottom: solid black;
+    font-family: 'Oswald', sans-serif;
+}
+
+#ahricontainer{
+    display: flex;
+    justify-content: center;
+}
+
 #ahri{
     margin-left: 10%;
     margin-right: 10%;
@@ -117,8 +186,11 @@ h3{
     background-image: url(images/background.jpg);
     background-size: cover;
     height: 370px;
+    width: 1196px;
     max-width: 100%;
+    min-width: 1196px;
 }
+
 
 .ahri{
     display: flex;
@@ -137,18 +209,16 @@ h3{
     max-height: 100%;
 }
 
-h4{
-    color: black;
-    font-size: 50px;
-    border-bottom: solid black;
-    font-family: 'Oswald', sans-serif;
-}
-
 #ahribio{
     font-size: 19px;
     color: black;
     font-family: 'Oswald', sans-serif;
     margin-top: -24px;
+}
+
+#evelynncontainer{
+    display: flex;
+    justify-content: center;
 }
 
 #evelynn{
@@ -161,7 +231,9 @@ h4{
     background-image: url(images/background.jpg);
     background-size: cover;
     height: 370px;
+    width: 1196px;
     max-width: 100%;
+    min-width: 1196px;
 }
 
 .evelynn{
@@ -171,6 +243,7 @@ h4{
     align-items: center;
     margin: 5%;
     max-width: 100%;
+    max-height: 100%;
 }
 
 #evelynnkda{
@@ -187,6 +260,11 @@ h4{
     margin-top: -20px;
 }
 
+#akalicontainer{
+    display: flex;
+    justify-content: center;
+}
+
 #akali{
     margin-left: 10%;
     margin-right: 10%;
@@ -197,7 +275,9 @@ h4{
     background-image: url(images/background.jpg);
     background-size: cover;
     height: 370px;
+    width: 1196px;
     max-width: 100%;
+    min-width: 1196px;
 }
 
 .akali{
@@ -207,6 +287,7 @@ h4{
     align-items: center;
     margin: 5%;
     max-width: 100%;
+    max-height: 100%;
 }
 
 #akalikda{
@@ -223,6 +304,11 @@ h4{
     margin-top: -30px;
 }
 
+#kaisacontainer{
+    display: flex;
+    justify-content: center;
+}
+
 #kaisa{
     margin-left: 10%;
     margin-right: 10%;
@@ -233,7 +319,9 @@ h4{
     background-image: url(images/background.jpg);
     background-size: cover;
     height: 370px;
+    width: 1196px;
     max-width: 100%;
+    min-width: 1196px;
 }
 
 .kaisa{
@@ -243,6 +331,7 @@ h4{
     align-items: center;
     margin: 5%;
     max-width: 100%;
+    max-height: 100%;
 }
 
 #kaisakda{
