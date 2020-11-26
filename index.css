@@ -368,7 +368,7 @@ h4{
 h5{
     color: black;
     font-size: 30px;
-    margin-top: -2%;
+    margin-top: -0.5%;
     font-family: 'Oswald', sans-serif;
 }
 
@@ -376,40 +376,90 @@ h5{
     color: black;
     font-size: 19px;
     font-family: 'Oswlad', sans-serif;
-    
+    margin-top: -15%;
+    margin-left: 5%;
+    margin-right: 5%    
 }
 
 #miyeon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     background-color: white;
     width: 300px;
-    height: 500px;
+    height: 450px;
     margin: 10px;
 }
 
 #miyeonimg{
     width: 250px;
     height: 250px;
-    padding-top: 4%;
+    padding-top: 10%;
 }
 
 #soyeon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     background-color: white;
-    width: 200px;
-    height: 50px;
+    width: 300px;
+    height: 450px;
     margin: 10px;
+}
+
+#soyeonimg{
+    width: 250px;
+    height: 250px;
+    padding-top: 4%;
+}
+
+.englishbio{
+    color: black;
+    font-size: 19px;
+    font-family: 'Oswlad', sans-serif;
+    margin-top: -8%;
+    margin-left: 5%;
+    margin-right: 5%    
 }
 
 #madison{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     background-color: white;
-    width: 200px;
-    height: 50px;
+    width: 300px;
+    height: 450px;
     margin: 10px;
 }
 
+#madisonimg{
+    width: 250px;
+    height: 250px;
+    margin-top: 4%;
+    margin-bottom: 2%
+}
+
 #jaira{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     background-color: white;
-    width: 200px;
-    height: 50px;
+    width: 300px;
+    height: 450px;
     margin: 10px;
+}
+
+#jairaimg{
+    width: 250px;
+    height: 250px;
+    margin-top: 4%;
+    margin-bottom: 2%;
 }
