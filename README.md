@@ -66,7 +66,7 @@ The website is pretty dynamic and looks okay with various browser and screen siz
 
 ## Credits
 ### Content
-* The text used for the K/DA introduction is referenced from [Wikipedia](https://en.wikipedia.org/wiki/K/DA)
+* The text used for K/DA's information is referenced from [Wikipedia](https://en.wikipedia.org/wiki/K/DA)
 * The biographies of the K/DA members were referenced from [KProfiles](https://kprofiles.com/kda-members-profile/)
 * The texts used for the voices page were referenced from Wikipedia:
     * [Miyeon](https://en.wikipedia.org/wiki/Cho_Mi-yeon)
