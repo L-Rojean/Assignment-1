@@ -1,6 +1,8 @@
 # Assignment-1
 This is a website for fans of the musical group, <strong><em>K/DA</em></strong>, and people whom may be interested in finding out more about them. It displays K/DA's basic information like their social pages, music platforms, the members of K/DA and the artists who voices K/DA. The website is a single paged website that is easy to navigate through with the tab headers.
 
+## URL: https://l-rojean.github.io/Assignment-1/
+
 ## Design Process
 The website is catered to K/DA fans, boasting K/DA's color scheme and style. The website is single pages and its contents are minimalistic, displaying information clearly and helping users navigate easily. 
 
